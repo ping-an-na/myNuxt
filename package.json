@@ -13,6 +13,7 @@
     "@element-plus/nuxt": "^1.0.10",
     "element-plus": "^2.8.6",
     "nuxt": "^3.13.2",
+    "rainyday.js": "^0.1.7",
     "sass": "^1.80.3",
     "vue": "latest",
     "vue-router": "latest"

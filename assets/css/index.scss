@@ -60,3 +60,27 @@ table {
   border-spacing: 0;
 }
 
+/* 滚动条整体样式 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #FFF;
+  position: relative;
+
+}
+
+/* 滚动条轨道样式 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0px;
+  background-color: #fff;
+}
+
+/* 滚动条滑块样式 */
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+  border: 1px solid rgba(0, 0, 0, 0); /* 滑块的边框和轨道相同的颜色，可以制造“边距”的效果 */
+  background: linear-gradient(0deg, rgba(23, 49, 88, 1), rgba(23, 49, 88, .7));
+}

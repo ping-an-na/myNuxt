@@ -4,7 +4,7 @@
 
 <template>
   <div class="error404">
-    登录页
+    工作台
   </div>
 </template>
 

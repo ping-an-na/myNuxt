@@ -2,6 +2,18 @@
 export default defineNuxtConfig({
     compatibilityDate: '2024-04-03',
     devtools: {enabled: true},
+
+    app: {
+        head: {
+            title: "平安喜乐",
+            meta: [],
+            link: [],
+            script: [{
+                src: "~/assets/js/rainyday.min.js" // 雨水特效
+            }]
+        },
+
+    },
     css: ["~/assets/css/index.scss"], // 全局样式 仅仅是初始化样式，引用变量 不可以
     vite: { // vite 配置
         css: {
@@ -23,8 +35,7 @@ export default defineNuxtConfig({
     modules: [
         '@element-plus/nuxt'
     ],
-    elementPlus: { /** Options */ },
-
+    elementPlus: { /** Options */},
 
 
 })
